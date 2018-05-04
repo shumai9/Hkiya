@@ -13,9 +13,8 @@
  *= require_tree .
  *= require_self
  */
-html {
-  margin-top: 50px;
-  padding: 10px;
+nav{
+  background-color: #eee;
 }
 @import "bootstrap-sprockets";
 @import "bootstrap";

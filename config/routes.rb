@@ -7,6 +7,7 @@ Rails.application.routes.draw do
 
   resources :chatrooms do
     resource :chatroom_users
+    resources :messages
   end
  #we use this to acces the join table and grab users by id
     #by changing the nested resources from purlar to singular..it saves the app from
