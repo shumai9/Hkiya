@@ -10,7 +10,7 @@ Rails.application.routes.draw do
     resources :messages
   end
  #we use this to acces the join table and grab users by id
-    #by changing the nested resources from purlar to singular..it saves the app from
+    #by changing the nested resources from prular to singular..it saves the app from
     # crushing should user try to leave room that they didn't join.
  
 
